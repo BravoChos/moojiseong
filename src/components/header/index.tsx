@@ -6,7 +6,9 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-2 px-6">
         {/* Left: Logo */}
         <div className="hidden md:flex flex items-center space-x-2">
-          <text className="text-2xl text-gray-700 font-bold">MOOJI</text>
+          <a href="/" className="text-2xl text-gray-700 font-bold">
+            MOOJI
+          </a>
         </div>
 
         {/* Center: Navigation Links */}
